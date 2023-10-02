@@ -1,0 +1,107 @@
+/* Resetowanie domyślnych stylów przeglądarki */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stylizacja nagłówka */
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+/* Nawigacja */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Główna sekcja z perfumami */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.perfumy {
+    margin-bottom: 20px;
+}
+
+.perfumy img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.perfumy p {
+    margin-top: 10px;
+}
+
+.perfumy a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Stopka */
+element.style {
+}
+.XAo_7xFki9WWawqQUE2w {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-align: center;
+}
+.JYviHfeDHuoXdHOqH_cg * {
+    box-sizing: border-box;
+}
+div, pre {
+    margin: 0;
+    padding: 0;
+}
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+}
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+}
+<style>
+*, ::before, ::after {
+    margin: 0px;
+    padding: 0px;
+}
+<style>
+*, ::before, ::after {
+    margin: 0px;
+    padding: 0px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
