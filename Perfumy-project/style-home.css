@@ -1,0 +1,121 @@
+/*HOME PAGE*\
+
+/*Style the background*/ 
+body {
+    background-image: url("Photos-perfumes/img_nature_wide.jpg")
+}
+/* NAVIGATION BAR ALL */
+
+/* Style the navigation bar container */
+.navbar {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'lady-ice--small-caps-regular', sans-serif;
+    padding: 14px 20px; /* Увеличиваем отступы вокруг текста */
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Анимация цвета фона и текста при наведении */
+    font-size: 18px; /* Увеличиваем размер шрифта */
+    font-weight: bold; /* Жирный текст */
+    border-radius: 5px; /* Скругленные углы */
+    margin: 0 10px; /* Добавляем небольшие отступы между ссылками */
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: #333; 
+}
+
+
+
+/*ANIMATION IMAGES HOME PAGE*\
+
+/*FIRST ANIMATION*/
+
+
+/* Style the slideshow container men */
+.slideshow-container-men {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    margin: 0 auto;
+    float: left;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+/*Style the slideshow imeges men*/
+.slideshow-image-men {
+    width: 100%;
+    height: auto;
+    
+}
+
+/* Style the individual slides men*/
+.mySlides-men {
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/*SECOND ANIMATION*/
+
+
+/* Style the slideshow container women */
+.slideshow-container-women {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    margin: 0 auto;
+    float: left;
+    margin-right: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+
+
+/*Style the slideshow imeges women*/
+.slideshow-image-women {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the individual slides women */
+.mySlides-women {
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* THIRD ANIMATION */
+
+
+/* Style the slideshow container unisex */
+.slideshow-container-unisex {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    margin: 10 auto;
+    float: left;
+    margin-left: 140px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+/* Style the slideshow images unisex */
+.slideshow-image-unisex {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the individual slides unisex */
+.mySlides-unisex {
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
