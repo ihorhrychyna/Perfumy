@@ -1,0 +1,155 @@
+/*HOME PAGE*/
+
+@media screen and (max-width: 1400px){
+
+/*Style the background*/ 
+body {
+    background: linear-gradient(135deg, #993399, #ff3399) !important;
+    background-size: cover;
+}
+    
+/* NAVIGATION BAR ALL */
+
+/* Style the navigation bar container */
+.navbar {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'lady-ice--small-caps-regular', sans-serif;
+    padding: 14px 20px; /* Увеличиваем отступы вокруг текста */
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Анимация цвета фона и текста при наведении */
+    font-size: 18px; /* Увеличиваем размер шрифта */
+    font-weight: bold; /* Жирный текст */
+    border-radius: 5px; /* Скругленные углы */
+    margin: 0 10px; /* Добавляем небольшие отступы между ссылками */
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: #333; 
+}
+
+
+
+/*SWIPPER ANIMATION*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #f89ad1;
+    color: #ff0095;
+}
+
+.container {
+    max-width: 124rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+#tranding {
+    padding: 4rem 0;
+}
+
+#tranding .tranding-slider {
+    height: 52rem;
+    padding: 2rem 42rem;
+    position: relative;
+}
+
+.tranding-slide {
+    width: 37rem;
+    height: 42rem;
+    position: relative;
+}
+
+.tranding-slide .tranding-slide-img img {
+    width: 37rem;
+    height: 42rem;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
